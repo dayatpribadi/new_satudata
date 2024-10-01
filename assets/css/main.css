@@ -200,11 +200,11 @@ input:focus::-moz-placeholder {
 }
 
 a {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 a:hover {
-  color: #7856dd;
+  color: #0084C8;
 }
 
 li.hr span {
@@ -217,19 +217,19 @@ li.hr span {
 
 /*--- Common Classes---------------------*/
 ::-moz-selection {
-  background: #9777fa;
+  background: #0193DE;
   /* WebKit/Blink Browsers */
   color: #fff;
 }
 
 ::selection {
-  background: #9777fa;
+  background: #0193DE;
   /* WebKit/Blink Browsers */
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #9777fa;
+  background: #0193DE;
   /* Gecko Browsers */
   color: #fff;
 }
@@ -508,13 +508,13 @@ a {
 .dropdown .dropdown-menu.show .dropdown-item.active {
   color: #fff;
   text-decoration: none;
-  background-color: #9777fa;
+  background-color: #0193DE;
 }
 
 .dropdown .dropdown-menu.show .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #9777fa;
+  background-color: #0193DE;
 }
 
 .dropdown.dropdown-sort .dropdown-menu.show {
@@ -727,7 +727,7 @@ h6 {
 }
 
 .text-brand {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .font-3xs {
@@ -789,11 +789,11 @@ h6 {
 
 .btn.btn-default {
   color: #ffffff;
-  background-color: #9777fa;
+  background-color: #0193DE;
 }
 
 .btn.btn-default:hover {
-  background-color: #6d4bd3;
+  background-color: #0070A9;
   transform: translateY(-2px);
   transition: 0.2s;
 }
@@ -810,7 +810,7 @@ h6 {
   content: "";
   height: 5px;
   width: 5px;
-  background-color: #9777fa;
+  background-color: #0193DE;
   border-radius: 50%;
   display: inline-block;
   margin: 0px 5px 2px 0px;
@@ -844,7 +844,7 @@ h6 {
 
 .btn-border:hover {
   color: #ffffff;
-  background-color: #9777fa;
+  background-color: #0193DE;
   transition-duration: 0.2s;
   transform: translateY(-3px);
 }
@@ -871,7 +871,7 @@ h6 {
 }
 
 .btn-brand-hover:hover {
-  background-color: #9777fa;
+  background-color: #0193DE;
   color: #ffffff;
 }
 
@@ -881,7 +881,7 @@ h6 {
 }
 
 .box-button-shadow::before {
-  background: #9777fa;
+  background: #0193DE;
   filter: blur(20px);
   border-radius: 10px;
   content: "";
@@ -911,7 +911,7 @@ h6 {
 }
 
 .btn-link:hover {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .icon-chevron-right {
@@ -993,7 +993,7 @@ h6 {
   width: 21px;
   left: 5px;
   bottom: 5px;
-  background-color: #9777fa;
+  background-color: #0193DE;
   transition: 0.4s;
 }
 
@@ -1002,7 +1002,7 @@ input:checked+.slider {
 }
 
 input:focus+.slider {
-  box-shadow: 0 0 1px #9777fa;
+  box-shadow: 0 0 1px #0193DE;
 }
 
 input:checked+.slider:before {
@@ -1055,7 +1055,7 @@ span.btn {
 }
 
 .cb-container input:checked~.checkmark {
-  border: 2px solid #9777fa;
+  border: 2px solid #0193DE;
 }
 
 .checkmark:after {
@@ -1073,7 +1073,7 @@ span.btn {
   top: -1px;
   width: 21px;
   height: 21px;
-  background: #9777fa url(../imgs/theme/icons/tick.svg) no-repeat center;
+  background: #0193DE url(../imgs/theme/icons/tick.svg) no-repeat center;
 }
 
 /*COMPONENTS -> FORM*/
@@ -1151,13 +1151,13 @@ textarea:focus {
   padding: 20px 40px;
   color: #ffffff;
   border: none;
-  background-color: #9777fa;
+  background-color: #0193DE;
   border-radius: 10px;
   font-family: var(--font-title);
 }
 
 .contact-from-area .contact-form-style button:hover {
-  background-color: #7856dd !important;
+  background-color: #0084C8 !important;
 }
 
 .form-group {
@@ -1453,7 +1453,7 @@ label {
 }
 
 .noUi-connect {
-  background: #9777fa;
+  background: #0193DE;
   transition: background 450ms;
   height: 6px;
   margin-top: 0px;
@@ -1508,7 +1508,7 @@ label {
 }
 
 .card-grid a:hover {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .card-shadow {
@@ -1551,7 +1551,7 @@ label {
 }
 
 .card-grid-2 a:hover {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .card-grid-2 .card-grid-2-image-rd {
@@ -1684,7 +1684,8 @@ label {
 
 .card-grid-2 .card-block-info .card-2-bottom.card-2-bottom-candidate .btn-brand-hover {
   padding: 15px 33px;
-  border: thin solid rgba(151, 119, 250, 0.5);
+  /* border: thin solid rgba(151, 119, 250, 0.5); */
+  border: thin solid rgba(1, 147, 222, 0.5);
   font-size: 14px;
 }
 
@@ -1723,7 +1724,7 @@ label {
 }
 
 .card-grid-2 .card-block-info .card-profile strong:hover {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .card-grid-2 .card-block-info .card-profile>span {
@@ -1844,7 +1845,7 @@ label {
 }
 
 .card-grid-3 h5 a:hover {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .card-grid-3 .card-block-info {
@@ -1978,7 +1979,7 @@ label {
 }
 
 .list-recent-jobs .card-job .card-job-description a:hover {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .list-recent-jobs .card-job .card-job-top--image {
@@ -2012,12 +2013,12 @@ label {
 }
 
 .list-recent-jobs .card-job .card-job-top--info-heading:hover a {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .list-recent-jobs .card-job .card-job-top--info .card-job-top--company {
   font-weight: bold;
-  color: #9777fa;
+  color: #0193DE;
   font-size: 12px;
 }
 
@@ -2068,7 +2069,7 @@ label {
 }
 
 .card-job-bottom a.color-muted:hover {
-  color: #9777fa !important;
+  color: #0193DE !important;
 }
 
 .card-grid-4 {
@@ -2093,7 +2094,7 @@ label {
 }
 
 .card-grid-4 .btn-readmore {
-  color: #9777fa;
+  color: #0193DE;
   font-size: 18px;
   font-family: var(--font-title);
   font-weight: 400;
@@ -2101,7 +2102,7 @@ label {
 }
 
 .card-grid-4 .btn-readmore:hover {
-  color: #7856dd;
+  color: #0084C8;
 }
 
 .card-grid-4 .btn-readmore.icon-arrow {
@@ -2117,7 +2118,7 @@ label {
 
 
 .card-none-bd .card-info-bottom h3 {
-  color: #9777fa;
+  color: #0193DE;
   margin-bottom: 23px;
 }
 
@@ -2159,7 +2160,7 @@ label {
 }
 
 .card-grid-news .card-info-bottom h3 {
-  color: #9777fa;
+  color: #0193DE;
   margin-bottom: 23px;
 }
 
@@ -2182,7 +2183,7 @@ label {
 
 .card-grid-news .card-info-bottom ul li {
   list-style: disc;
-  color: #9777fa;
+  color: #0193DE;
   float: left;
   width: 50%;
   padding: 5px 5px 5px 0px;
@@ -2398,7 +2399,7 @@ label {
 }
 
 .nav-right li button:hover {
-  background-color: #9777fa;
+  background-color: #0193DE;
   color: #ffffff;
   transition-duration: 0.2s;
   transform: translateY(-3px);
@@ -2406,7 +2407,7 @@ label {
 
 .nav-right li button.active {
   color: #ffffff;
-  background-color: #9777fa;
+  background-color: #0193DE;
 }
 
 .job-text-desc {
@@ -2723,7 +2724,7 @@ label {
 }
 
 .breadcrumbs li a:hover {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .breadcrumbs li:last-child::before {
@@ -2888,7 +2889,7 @@ label {
 
 .banner-hero .block-banner .form-find .select2 .select2-selection__arrow b {
   display: none !important;
-  background-color: #9777fa;
+  background-color: #0193DE;
 }
 
 .banner-hero .block-banner .form-find .input-keysearch {
@@ -3039,7 +3040,7 @@ label {
 }
 
 .header .main-menu li a:hover {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .header .main-menu li a i {
@@ -3085,7 +3086,7 @@ label {
   top: 50%;
   width: 5px;
   height: 5px;
-  background-color: #9777fa;
+  background-color: #0193DE;
   border-radius: 50%;
   opacity: 0.7;
   transition-duration: 0.2s;
@@ -3122,7 +3123,7 @@ label {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  color: #9777fa;
+  color: #0193DE;
   display: inline-block;
   position: relative;
   padding-left: 13px;
@@ -3134,7 +3135,7 @@ label {
 
 .header .text-link-bd-btom::before {
   content: "";
-  background: #9777fa;
+  background: #0193DE;
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -3373,7 +3374,7 @@ label {
   margin-top: -3px;
   width: 5px;
   height: 5px;
-  background-color: #9777fa;
+  background-color: #0193DE;
   border-radius: 50%;
   opacity: 0.7;
   transition-duration: 0.2s;
@@ -3388,7 +3389,7 @@ label {
 }
 
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li:hover>a {
-  color: #9777fa;
+  color: #0193DE;
   padding-left: 3px;
   transition-duration: 0.2s;
 }
@@ -3421,12 +3422,12 @@ label {
 }
 
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-header-info-wrap .single-mobile-header-info a:hover {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-header-info-wrap .single-mobile-header-info a i {
   font-size: 14px;
-  color: #9777fa;
+  color: #0193DE;
   margin-right: 8px;
 }
 
@@ -3455,7 +3456,7 @@ label {
 }
 
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-header-info-wrap .single-mobile-header-info .lang-curr-dropdown ul li a:hover {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-header-info-wrap .single-mobile-header-info:hover>a {
@@ -3627,7 +3628,7 @@ label {
 .mobile-account ul li:hover a {
   padding-left: 3px;
   transition-duration: 0.2s;
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .sidebar-title {
@@ -3692,7 +3693,7 @@ label {
 }
 
 .widget-categories li:hover span.count {
-  background-color: #9777fa;
+  background-color: #0193DE;
   color: #ffffff;
 }
 
@@ -3748,7 +3749,7 @@ label {
 }
 
 .footer .menu-footer li a:hover {
-  color: #9777fa;
+  color: #0193DE;
   transition-duration: 0.2s;
   padding-left: 3px;
 }
@@ -3761,7 +3762,7 @@ label {
 }
 
 .footer .footer-bottom strong {
-  color: #9777fa;
+  color: #0193DE;
   font-weight: bold;
 }
 
@@ -3835,7 +3836,7 @@ label {
   border: 0;
   background-color: #fff;
   transition-duration: 0.2s;
-  background-color: #9777fa;
+  background-color: #0193DE;
 }
 
 #scrollUp i {
@@ -5741,7 +5742,7 @@ label {
 
 .block-pricing .most-popular {
   margin-top: -50px;
-  background: #9777fa url(../imgs/theme/bg-featured.svg) no-repeat top right;
+  background: #0193DE url(../imgs/theme/bg-featured.svg) no-repeat top right;
   background-size: contain;
   border-radius: 26px;
   padding: 20px 30px 44px 30px;
@@ -5761,7 +5762,7 @@ label {
 
 .block-pricing .most-popular .btn-border {
   font-weight: bold;
-  color: #9777fa;
+  color: #0193DE;
   width: 100%;
   text-align: center;
 }
@@ -5771,7 +5772,7 @@ label {
   text-transform: uppercase;
   padding: 9px 25px 7px 25px;
   font-size: 10px;
-  color: #9777fa;
+  color: #0193DE;
   line-height: 12px;
   font-family: var(--font-title);
 }
@@ -5873,7 +5874,7 @@ label {
 }
 
 .accordion-flush .accordion-button:not(.collapsed) {
-  color: #9777fa;
+  color: #0193DE;
   background-color: transparent;
 }
 
@@ -5949,7 +5950,7 @@ label {
 }
 
 .card-blog-1 h3.post-title a:hover {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .card-blog-1 h3.post-title.small {
@@ -6112,7 +6113,7 @@ label {
 }
 
 .box-head-single .avatar-sidebar .sidebar-website-text {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .img-rd-15 {
@@ -6257,7 +6258,7 @@ label {
 .sidebar-shadow .sidebar-heading .avatar-sidebar .sidebar-info .sidebar-website-text {
   font-size: 12px;
   line-height: 18px;
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .sidebar-shadow .sidebar-heading .avatar-sidebar .sidebar-info .dropdown-toggle::after {
@@ -6405,7 +6406,7 @@ label {
 }
 
 .ul-lists li a:hover {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .btn-dots-abs-right {
@@ -6440,7 +6441,7 @@ label {
 
 .job-meta .company {
   font-weight: bold;
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .job-meta span {
@@ -6554,7 +6555,7 @@ label {
 }
 
 .block-progress-status .item-progress .info-progress .progress .progress-bar {
-  background: #9777fa;
+  background: #0193DE;
   border-radius: 5px;
 }
 
@@ -6689,7 +6690,7 @@ label {
   content: "";
   height: 28px;
   width: 28px;
-  background: #9777fa;
+  background: #0193DE;
   opacity: 0.3;
   border-radius: 8px;
   position: absolute;
@@ -6702,7 +6703,7 @@ label {
   content: "";
   height: 28px;
   width: 28px;
-  background: #9777fa;
+  background: #0193DE;
   opacity: 0.3;
   border-radius: 8px;
   position: absolute;
@@ -7015,7 +7016,7 @@ label {
   font-size: 12px;
   font-weight: bold;
   line-height: 14px;
-  color: #9777fa;
+  color: #0193DE;
   font-family: var(--font-body);
 }
 
@@ -7117,7 +7118,7 @@ label {
 }
 
 .employers-list .card-employers .employers-name h5:hover a {
-  color: #9777fa;
+  color: #0193DE;
 }
 
 .employers-list .card-employers .employers-name .rate {
@@ -7232,12 +7233,12 @@ label {
 }
 
 .nav-style-homepage-3 li button.active {
-  color: #9777fa;
+  color: #0193DE;
   background: none;
 }
 
 .nav-style-homepage-3 li button:hover {
-  color: #9777fa;
+  color: #0193DE;
   background: none;
 }
 
