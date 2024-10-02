@@ -798,6 +798,20 @@ h6 {
   transition: 0.2s;
 }
 
+.btn.btn-defaultw {
+  color: #ffffff;
+  background-color: #0193DE;
+}
+
+.btn.btn-defaultw:hover {
+  background-color: #FFF;
+  color: #0193DE;
+  transform: translateY(-2px);
+  transition: 0.2s;
+  border: 0.6px solid #0193DE;
+  ;
+}
+
 .btn-grey-small {
   background-color: rgba(151, 119, 250, 0.12);
   font-size: 14px;
@@ -5913,6 +5927,18 @@ label {
   max-width: 30px;
   border-radius: 50%;
   margin-right: 5px;
+}
+
+.card-custom-berita {
+  height: 500px !important;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 450px) {
+  .card-custom-berita {
+    height: 440px !important;
+    overflow: hidden;
+  }
 }
 
 .card-blog-1 {
