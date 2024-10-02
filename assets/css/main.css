@@ -7194,8 +7194,8 @@ label {
 
 .banner-home-3::before {
   content: "";
-  height: 351px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   position: absolute;
   bottom: 40px;
   left: 40px;
@@ -7205,8 +7205,8 @@ label {
 
 .banner-home-3::after {
   content: "";
-  height: 351px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   position: absolute;
   bottom: 40px;
   right: 20px;
